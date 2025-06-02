@@ -4,9 +4,11 @@ int a, num1, num2;
 bool n=false;
 do
 {
-    do{n=int.TryParse(Console.ReadLine(), out a);}while(!n);
+    Console.WriteLine("\n CALCULADORA ARITMETICA V1!!!!! \n Seleccione la opeación que desea realizar");
+    Console.WriteLine("\n 1: Suma \n 2: Resta \n 3: Multiplicación \n 4: División \n");
+    do { n = int.TryParse(Console.ReadLine(), out a); } while (!n);
     n = false;
-switch (a)
+    switch (a)
     {
         case 1:
             {
@@ -36,7 +38,7 @@ switch (a)
                 do { n = int.TryParse(Console.ReadLine(), out num1); } while (!n);
                 Console.WriteLine("\n Ingrese el segundo numero: ");
                 do { n = int.TryParse(Console.ReadLine(), out num2); } while (!n);
-                num2 = num1*num2;
+                num2 = num1 * num2;
                 Console.WriteLine("\n RESULTADO: " + num2);
                 n = false;
             }
@@ -47,10 +49,11 @@ switch (a)
                 do { n = int.TryParse(Console.ReadLine(), out num1); } while (!n);
                 Console.WriteLine("\n Ingrese el denominador: ");
                 do { n = int.TryParse(Console.ReadLine(), out num2); } while (!n);
-                num2 = num1/num2;
+                num2 = num1 / num2;
                 Console.WriteLine("\n RESULTADO: " + num2);
                 n = false;
             }
             break;
     }
-}while(a!=0);
+    Console.WriteLine("\n ¿Desea realizar otra operación? ");
+} while (a != 0);
