@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
-
 Console.WriteLine("Hello, World! Ingrese una cadena de texto: ");
 
 string? str1, str2, str3, str4, palabra;
@@ -19,9 +17,9 @@ str4 = str3.Substring(str1.Length);
 Console.WriteLine("\n Segunda cadena extraida de la concatenacion: " + str4 +"\n");
 Console.WriteLine("\n Concatenacion representada por foreach: ");
 
-foreach (char i in str3)
+foreach (char j in str3)
 {
-    Console.WriteLine(i);
+    Console.WriteLine(j);
 }
 
 Console.WriteLine("\n Ingrese una palabra para buscar en la concatenacion: ");
@@ -40,7 +38,7 @@ Console.WriteLine("\n Ingrese una cadena con palabras separadas por espacio: ");
 string? entrada = Console.ReadLine();
 string[] partes;
     partes = entrada.Split(' ');
-else { Console.WriteLine("ERROR: Linea nula ingresada"); }
+Console.WriteLine("ERROR: Linea nula ingresada");
 
 Console.WriteLine("\n Partes encontradas:");
 int i = 0;

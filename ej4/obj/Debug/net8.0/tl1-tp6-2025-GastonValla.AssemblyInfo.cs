@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tl1-tp6-2025-GastonValla")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6aa93c5697eb586102ee83f7af15c3ce83bf9f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62a4ae5b37cdcf7a4bd0977d003edd463ee558cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("tl1-tp6-2025-GastonValla")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tl1-tp6-2025-GastonValla")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
